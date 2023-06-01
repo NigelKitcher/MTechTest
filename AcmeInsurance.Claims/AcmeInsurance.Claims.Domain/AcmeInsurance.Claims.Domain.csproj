@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AcmeInsurance.Claims.Repository\AcmeInsurance.Claims.Repository.csproj" />
+    <InternalsVisibleTo Include="AcmeInsurance.Claims.Tests" />
+  </ItemGroup>
+
+</Project>
